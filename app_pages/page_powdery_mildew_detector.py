@@ -49,4 +49,4 @@ def page_powdery_mildew_detector_body():
 
     st.write(
         f"For additional information, please visit and **read** the "
-        f"[Project README file](https://github.com/cla-cif/Detection-Cherry-Powdery-Mildew#readme).")
+        f"[Project README file]().")
