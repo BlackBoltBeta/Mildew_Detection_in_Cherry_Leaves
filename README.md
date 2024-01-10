@@ -97,8 +97,7 @@ In this way, the model is able to generalize and predict future observation reli
 
 ---
 ### Hypothesis 2
-> Mathematical formulas comparison: `softmax` performs better than `sigmoid` as activation function for the CNN output layer. 
-For further details the results mentioned in this section can be downloaded here [softmax hypothesis](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector/blob/main/attachments/ModellingEvaluating_softmax_rgb.ipynb)AAAAAAAAAAAAAAAAAAAA and here [sigmoid hypothesis](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector/blob/main/attachments/ModellingEvaluating_sigmoid.ipynb)AAAAAAAAAAA
+> Mathematical formulas comparison: `softmax` performs better than `sigmoid` as activation function for the CNN output layer.
 
 **Introduction**
 
