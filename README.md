@@ -133,19 +133,14 @@ A plot of learning curves shows a good fit if:
   
 **Observation**
 
-The model was set to train only on 32 Epoch with no early stoppings, just for the purpose of this hypothesis, and shows overfitting around the 10 last epochs as expected.
+The model was set to train only on 32 Epoch with early stoppings, just for the purpose of this hypothesis, and shows overfitting around the 6 last epochs as expected.
 The same hyperparameters were set for both examples. 
 The model trained using ```softmax``` showed less training/validation sets gap and more consistent learning rate after the 5th Epoch compared to the model trained using ```sigmoid```. 
- - Loss/Accuracy of LSTM model trained using `softmax`
- 
-   ![softmax_model](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector/blob/main/streamlit_images/model_history_rgb_softmax.png) 
- - Loss/Accuracy of LSTM model trained using `sigmoid`
- 
-   ![rgb_model](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector/blob/main/streamlit_images/model_history_sigmoid.png)
+ - [Model training using`softmax`](jupyter_notebooks/Model_experimentation.ipynb)
    
 **Conclusion**
 
-In our case the ```softmax``` function performed better. 
+In our case the ```sigmoid``` function performed better since it is not overfitting. 
 
 **Sources**:
 - [Activation Functions Compared With Experiments](https://wandb.ai/shweta/Activation%20Functions/reports/Activation-Functions-Compared-With-Experiments--VmlldzoxMDQwOTQ) by [Sweta Shaw](https://wandb.ai/shweta)
@@ -375,5 +370,5 @@ This section lists the sources used to build this project.
 ### Code 
 -  The template used for this project belongs to CodeInstitute - [GitHub](https://github.com/Code-Institute-Submissions) and [website](https://codeinstitute.net/global/).
 - App pages for the Streamlit dashboard, data collection and data visualization jupiter notebooks are from [Code Institute WP01](https://github.com/cla-cif/WalkthroughProject01) and where used as a backbone for this project.
--  This project done taking h developed by Claudia Cifaldi - [cla-cif](https://github.com/cla-cif) on GitHub.
+-  This project was done following this [repository](https://github.com/cla-cif/Cherry-Powdery-Mildew-Detector) as a guide and template in specific regarding its documentation by Claudia Cifaldi - [cla-cif](https://github.com/cla-cif) on GitHub.
 
